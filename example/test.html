@@ -2,11 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>exampt</title>
 </head>
 <body>
-    <p>open source practice</p>
+    <p>exampt</p>
     
     <script src="../release/bundle.js"></script>
+    <script>
+        var FC = window.FastCache;
+        var cache = new FC();
+        cache.set('a', 100);
+        alert(cache.get('a'));
+    </script>
 </body>
 </html>
